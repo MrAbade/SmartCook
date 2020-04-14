@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+'use strict';
+require('dotenv').config();
+const app = require('../server');
+
+var server = app.listen(3000, () => {
+  const port = server.address().port;
+
+  console.log(`SmartCook server is listenning at http://localhost:${port}`);
+});

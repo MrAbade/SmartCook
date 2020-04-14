@@ -1,0 +1,30 @@
+{
+  "user": {
+    "name": "How could we call you?",
+    "phone-email": "We need your phone/email to authenticate it later and keep it safe",
+    "password": "You need to pass a password to authenticate later",
+    "administrator": "You don't have permission to do that"
+  },
+  "culinary": {
+    "name": "Give a name to the new type of cuisine",
+    "description": "What kind of cuisine is this?"
+  },
+  "recipe": {
+    "name": "Please, add a name to your new recipe",
+    "description": "Please, add a description to your new recipe",
+    "ingredient": "Please, add some ingredients to your new recipe",
+    "preparationMethod": "Please, add a preparation method to your new recipe",
+    "howManyServe": "How many people will be able to eat this recipe?",
+    "totalMinutes": "Please, tell us how long approximately the recipe takes to get ready",
+    "hot": "Please, tell us whether your new recipe should be consumed hot or cold",
+    "calorie": "Will healthy people be able to consume your recipe?"
+  },
+  "ingredient": {
+    "name": "You need to pass the name of ingredient"
+  },
+  "measure": {
+    "portion": "How many people does it serve?",
+    "mass": "Is the unit of measure volume or mass?",
+    "quantity": "How many?"
+  }
+}

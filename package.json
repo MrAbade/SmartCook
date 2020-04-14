@@ -1,0 +1,30 @@
+{
+  "name": "SmartCook",
+  "version": "1.0.0",
+  "description": "This server is being created to provide an API to our mobile application, called SmartCook, it's implements a path for administrators to manage. It`s in production",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiomurilo121/Back-End.git"
+  },
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./src/bin/www"
+  },
+  "keywords": [],
+  "author": "Vinicius Abade <vini_abade@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.656.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
